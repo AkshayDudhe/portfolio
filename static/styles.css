@@ -1,0 +1,9 @@
+.active{
+	border-bottom: 3px solid blue;
+}
+body{
+	position: relative;
+}
+.nav-link{
+	color:black;
+}
