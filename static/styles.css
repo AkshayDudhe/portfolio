@@ -14,16 +14,24 @@ a{
 .text-secondary{
 	color: #6f2aad;
 }
-.display-4{
-	font-size: 150%;
+.display-2{
+	font-size: 200%;
 }
 .display-3{
-	font-size: 200%;
+	font-size: 150%;
+}
+.display-4{
+	font-size: 125%;
 }
 .row {
 	font-family: inherit;
 }
+#experiance{
+	/*background :linear-gradient(to bottom,#6f2aad 0%,#6f2aad 50%,#000000 50%, white 50%,white 100%);*/
+	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 50px, white 50px,white 100%);
+}
 /*#jumbotron{
+	 #b78edc;
 	height: 50px;
 	z-index:1;
 }*/
