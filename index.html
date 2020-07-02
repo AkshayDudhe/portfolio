@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
 <!-- delete -->
 <link rel="stylesheet" type="text/css" href="static/bootstrap/dist/css/bootstrap.min.css">
@@ -11,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="static/aos.css">
 
 <script type="text/javascript" src="static/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="static/pooper.js/dist/popper.min.js"></script>
+<script type="text/javascript" src="static/pooper.js/dist/umd/popper.min.js"></script>
 <script type="text/javascript" src="static/bootstrap/js/dist/util.js"></script>
 <script type="text/javascript" src="static/bootstrap/js/dist/bootstrap.min.js"></script>
 <script type="text/javascript" src="static/aos.js"></script>	
@@ -25,55 +26,57 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-dark navbar-expand fixed-top bg-primary">
-	<div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+<div class="row mb-0" id="jumbotron">
+<header class="col-12 jumbotron bg-white text-center" data-aos="zoom-out">
+	<h1 class="text-weight-bold display-1 lead">Hey,I'm Akshay Dudhe</h1>
+	<h4 class="text-secondary display-4 mt-5"><em>Programmer | Front-end Developer | Back-end Developer</em></h4>
+</header>
+</div>
+
+<nav class="navbar navbar-dark navbar-expand bg-white sticky-top ">
 		<ul class=" navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="#section1">section1</a>
+				<a class="nav-link text-secondary mr-5 active" href="#section1">section1</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#section2">section1</a>
+				<a class="nav-link text-secondary mr-5" href="#section2">section2</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">section1</a>
+				<a class="nav-link text-secondary mr-5" href="#section3">section3</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">section1</a>
+				<a class="nav-link text-secondary mr-5" href="#section4">section4</a>
 			</li>
 		</ul>
-	</div>
 </nav>
-<!-- <nav class="navbar navbar-expand-sm navbar-primary fixed-top shadow-sm bg-primary">
-	<div class="container">  
-	  <ul class="navbar-nav">
-	    <li class="nav-item">
-	      <a class="nav-link" href="#section1">Section 1</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" href="#section2">Section 2</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" href="#section3">Section 3</a>
-	    </li>
-	  </ul>
-	</div>
-</nav> -->
-<header class="jumbotron bg-white shadow-lg text-center" data-aos="zoom-out">
-	<h1 class="text-weight-bold mt-5">Hello! I'm Akshay Dudhe</h1>
-</header>
+<div class="container-fluid mb-5" >
 
-<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+	<h1 class="text-center display-4 text-weight-bolder my-5">My Knowledge</h1>
+	<div class="row justify-content-center">
+	<div class="card text-center" style="background-color: #b78edc;">
+		<div class="card-body mx-5">
+			<span class="fa fa-laptop fa-2x"></span> Web Develpment
+			<ul class="list-unstyled mt-3">
+				<li>HTML</li>
+				<li>CSS,SCSS</li>
+				<li>JavaScript</li>
+			</ul>
+		</div>
+	</div>	
+</div>
+</div>
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:700px;">
   <h1>Section 1</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:700px;">
   <h1>Section 2</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:700px;">
   <h1>Section 3</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>

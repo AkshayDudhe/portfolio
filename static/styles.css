@@ -1,9 +1,29 @@
 .active{
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid #6f2aad;
 }
 body{
 	position: relative;
+	
 }
 .nav-link{
 	color:black;
 }
+a{
+	color:gray;
+}
+.text-secondary{
+	color: #6f2aad;
+}
+.display-4{
+	font-size: 150%;
+}
+.display-3{
+	font-size: 200%;
+}
+.row {
+	font-family: inherit;
+}
+/*#jumbotron{
+	height: 50px;
+	z-index:1;
+}*/
