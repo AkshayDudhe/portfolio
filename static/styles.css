@@ -3,9 +3,13 @@
 }
 body{
 	position: relative;
-	
+	overflow: scroll;
+
 }
 
+body::-webkit-scrollbar {
+display:none;
+}
 .bg-theme{
 	background-color: #6f2aad;
 }
@@ -16,16 +20,9 @@ body{
 .border-theme{
 	border-color : #6f2aad; 
 }
-/*
-.nav-link{
-	color:black;
-}*/
 a{
 	color:gray;
 }
-/*.text-secondary{
-	color: #6f2aad;
-}*/
 .display-2{
 	font-size: 200%;
 }
@@ -38,16 +35,9 @@ a{
 .row {
 	font-family: inherit;
 }
-#experiance{
-	/*background :linear-gradient(to bottom,#6f2aad 0%,#6f2aad 50%,#000000 50%, white 50%,white 100%);*/
+#experiance,#certificates{
 	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 50px, white 50px,white 100%);
 }
 #footer{
 	background :linear-gradient(to top,#6f2aad 0%,#6f2aad 70%,#000000 70%, white 30%,white 100%);
-	/*background :linear-gradient(to top,#6f2aad 0%,#6f2aad 30%,#000000 30%, white 70%,white 100%);*/
 }
-/*#jumbotron{
-	 #b78edc;
-	height: 50px;
-	z-index:1;
-}*/
