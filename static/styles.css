@@ -1,15 +1,4 @@
-.active{
-	border-bottom: 3px solid #6f2aad;
-}
-body{
-	position: relative;
-	overflow: scroll;
-
-}
-
-body::-webkit-scrollbar {
-display:none;
-}
+/*theme styling*/
 .bg-theme{
 	background-color: #6f2aad;
 }
@@ -20,8 +9,26 @@ display:none;
 .border-theme{
 	border-color : #6f2aad; 
 }
+.active{
+	border-bottom: 3px solid #6f2aad;
+}
+
+body{
+	position: relative;
+	overflow: scroll;
+}
+
+/*hide scrollbar*/
+body::-webkit-scrollbar {
+display:none;
+}
+
 a{
-	color:gray;
+	color:black;
+}
+
+.display-1{
+	font-size: 400%;
 }
 .display-2{
 	font-size: 200%;
@@ -32,11 +39,17 @@ a{
 .display-4{
 	font-size: 125%;
 }
+
 .row {
 	font-family: inherit;
 }
+
+#contact{
+	border-radius: 50px;background-color: #6f2aad71;
+}
+/*dual color to single div*/
 #experiance,#certificates{
-	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 50px, white 50px,white 100%);
+	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 350px, white 350px,white 100%);
 }
 #footer{
 	background :linear-gradient(to top,#6f2aad 0%,#6f2aad 70%,#000000 70%, white 30%,white 100%);
