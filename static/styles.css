@@ -15,16 +15,12 @@
 
 body{
 	position: relative;
-	overflow: scroll;
+	/*overflow: scroll;*/
 }
 
 /*hide scrollbar*/
 body::-webkit-scrollbar {
 display:none;
-}
-
-a{
-	color:black;
 }
 
 .display-1{
@@ -38,8 +34,8 @@ a{
 }
 .display-4{
 	font-size: 125%;
+	font-weight: 200;
 }
-
 .row {
 	font-family: inherit;
 }
@@ -54,3 +50,19 @@ a{
 #footer{
 	background :linear-gradient(to top,#6f2aad 0%,#6f2aad 70%,#000000 70%, white 30%,white 100%);
 }
+
+
+.card .card-reveal{    
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+    overflow-y: auto;
+    left:0;
+    bottom:0;
+    height: 100%;
+    z-index: 1;
+    display: none;    
+}
+
+.card .card-image{
+    overflow: hidden;}
