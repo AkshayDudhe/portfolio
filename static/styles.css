@@ -13,16 +13,6 @@
 	border-bottom: 3px solid #6f2aad;
 }
 
-body{
-	position: relative;
-	/*overflow: scroll;*/
-}
-
-/*hide scrollbar*/
-body::-webkit-scrollbar {
-display:none;
-}
-
 .display-1{
 	font-size: 400%;
 }
@@ -45,12 +35,17 @@ display:none;
 }
 /*dual color to single div*/
 #experiance,#certificates{
+	
 	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 350px, white 350px,white 100%);
 }
 #footer{
 	background :linear-gradient(to top,#6f2aad 0%,#6f2aad 70%,#000000 70%, white 30%,white 100%);
 }
 
+#experiance,#certificates,#projects{
+	padding-left:5%;
+	padding-right: 5%;
+}
 
 .card .card-reveal{    
     position: absolute;
