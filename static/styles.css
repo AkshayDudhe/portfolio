@@ -42,11 +42,6 @@
 	background :linear-gradient(to top,#6f2aad 0%,#6f2aad 70%,#000000 70%, white 30%,white 100%);
 }
 
-#experiance,#certificates,#projects{
-	padding-left:5%;
-	padding-right: 5%;
-}
-
 .card .card-reveal{    
     position: absolute;
     background-color: #FFF;
