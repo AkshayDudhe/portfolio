@@ -1,3 +1,4 @@
-# hello-world
-Intro repository
-Hi I'm akshay dudhe
+This repository contains my portfolio website which contains:
+- Certification details
+- Work experiance details
+- contact details
