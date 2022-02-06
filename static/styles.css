@@ -34,7 +34,7 @@
 	border-radius: 50px;background-color: #6f2aad71;
 }
 /*dual color to single div*/
-#experiance,#certificates{
+#experience,#certificates{
 	
 	background :linear-gradient(to bottom,#6f2aad 0px,#6f2aad 350px,#000000 350px, white 350px,white 100%);
 }
